@@ -11,7 +11,7 @@ import (
 // Time is a nullable time.Time. It supports SQL and JSON serialization.
 // It will marshal to null if null.
 type Time struct {
-	Time  time.Time
+	time.Time
 	Valid bool
 }
 
